@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+
+body{
+    color: #fff;
+    background: #000;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+h1,h2, .card-title, .fw-normal{
+    font-family: 'Metal Mania', sans-serif;
+}
+
+h1{
+    font-size: 4em;
+    padding-bottom: 0;
+}
+
+h2{
+    font-size: 3em;
+}
+
+aside ul{
+    margin-top: 2em !important;
+}
+aside ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding-right: 1em;
+}
+
+
+details{
+    border-bottom: 1px solid #C8C9CC;
+    
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+details summary {
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #C8C9CC;
+    font-size: 1.1em;
+  }
+  
+
+
+
+#hero{
+    background-image: url(../images/bg-spectral.png);
+    background-size:cover;
+    background-position: center;
+}
+
+#hero nav{
+    text-align: left;
+    padding:2em 0 0 2em ;
+}
+
+#hero nav img{
+    max-width: 140px;
+}
+
+#preguntas{
+    background:#0b0b0b;
+    background-image: url(../images/bg-vr.png);
+    padding: 4em 0;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+}
+
+.fw-normal{
+    font-size: 2.2em;
+}
+
+.card-title span{
+    text-align: left;
+}
+.faq-list {
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 2em;
+  }
+
+  
+
+.subtitle{
+    font-size: 0.9em;
+    color: #fff;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*
+.btn-primary{
+    background: #FFFF8A;
+    border: 0.7px solid rgba(9,9,9,0.33);
+    box-shadow: 0 1px 8px 0 #FFFF8A;
+    border-radius: 2.8px;
+    font-family: Arial;
+    font-size: 18px;
+    color: #050706;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+}
+*/
+
+.small{
+    color: #C8C9CC;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 16px;
+    padding-top: 1em;
+    font-weight: bold;
+    padding-bottom: 40px;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.small span{
+    color: #FFFF8A;
+}
+
+.btn-outline-primary{
+    border: solid 1px #C8C9CC !important;
+    color: #C8C9CC;
+}
+.btn-outline-primary:hover{
+    background: #1A1D22;
+}
+
+.border-primary{
+    border: solid 1px #FFFF8A !important;
+}
+.btn-primary, .bg-primary{
+    background: #FFFF8A !important;
+    color: #0b0b0b !important;
+    border: solid 1px #FFFF8A !important;
+    font-weight: bold;
+}
+
+/*
+.btn-primary:hover{
+    background: #fafa93;
+    border: solid 1px #fafa93;
+}
+*/
+
+
+#evento{
+    max-width: 666px;
+} 
+#evento-1{
+    display: none;
+}
+
+#info{
+    background:linear-gradient(#0b0b0b,#000000);
+    padding: 4em 0;
+}
+
+#info p{
+    font-size: 1.2em;
+    color: #C8C9CC;
+    padding: 1em 6em 0;
+}
+#info p span{
+    color: #fff;
+}
+
+.card{
+    background-color:#050706;
+    border: 1px solid #C8C9CC;
+    border-radius: 4px;
+    color: #C8C9CC;
+    min-height: 380px;
+
+}
+
+.card h5{
+    position: absolute;
+    top: 0em;
+    background-color: #FFFF8A;
+    left: 0;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 2px 2px 0 0;
+    border: 1px solid #FFFF8A;
+    color: #1A1D22;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: .4em;
+}
+
+.card ul {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+}
+
+.card ul li{
+    margin-left: 1em;
+    font-size: 1.1em;
+    list-style: url();
+}
+.card-special{
+    color: #fff;
+    border: 1px solid #FFFF8A;
+    box-shadow: 0 3px 7px 0 rgba(255,255,138,0.60);
+}
+
+.card-special a{
+    background: #FFFF8A;
+    border: 1px solid #FFFF8A;
+}
+
+#hero .strong{
+    text-transform: uppercase;
+    color: #FFFF8A  !important;
+    padding-top: 4em;
+    margin-bottom: -.2em;
+}
+
+@media (max-width: 700px) {
+    #hero nav{
+        text-align: center;
+        padding: 2em 0;
+    }
+    #hero .strong{ 
+        padding-top: 1em;
+        margin-bottom: -.1em;
+    }
+    
+    .small{
+        font-size: .8em;
+    }
+    
+    h1{
+        font-size: 2.4em;
+        padding-top: 0em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    .subtitle{
+        line-height: 1.4em;
+        padding: 0 1em;
+        font-size: .8em;
+    }
+
+    #hero nav img {
+        max-width: 50%;
+    }
+    #evento{
+        display: none;
+    } 
+    #evento-1{
+        display: flex;
+        max-width: 100%;
+    }
+    #info{
+        padding: 4em 0 0;
+    }
+    #info p{
+        padding: 4px;
+        
+    }
+    .pricing-card-title{
+        font-size: 2em;
+    }
+
+    .metodos-pago ul {
+        vertical-align: middle;
+    }
+    .metodos-pago li{
+        font-size: .7em;
+        vertical-align: middle;
+    }
+    .metodos-pago li img{
+        max-width: 40px;
+    }
+    #preguntas{
+        padding-bottom: 0em;
+    }
+  }
+  
