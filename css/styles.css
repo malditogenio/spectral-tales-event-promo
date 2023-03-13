@@ -36,8 +36,8 @@ aside ul li{
 
 details{
     border-bottom: 1px solid #C8C9CC;
-    
-    margin-bottom: 20px;
+    color: #C8C9CC;
+    margin: 1.2em 0;
     font-size: 1.1em;
     line-height: 1.4em;
 }
@@ -46,8 +46,9 @@ details summary {
     font-size: 1.2em;
     font-weight: bold;
     cursor: pointer;
-    color: #C8C9CC;
+    color: #fff;
     font-size: 1.1em;
+    padding-bottom: 1em;
   }
   
 
