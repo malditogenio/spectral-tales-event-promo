@@ -13,14 +13,10 @@
   <meta property="og:title" content="Compra tus entradas del Made In Iron Metal Fest XII • Spectral Tales" />
   <meta property="og:description" content="Prepárate para el festival de metal más épico del año! Made In Iron Metal Fest XII te espera con un cartel de 16 bandas de metal legendarias y emergentes, camping, piscina y mucho más en Chinauta, Colombia. Compra tus entradas ahora" />
   <meta property="og:url" content="https://spectraltales.co/" />
-  <meta property="og:image" content="/images/og-spectral-party-metal.png" />
-  <meta property="og:image:secure_url" content="/images/og-spectral-party-metal.png" />
+  <meta property="og:image" content="https://malditogenio.github.io/spectral-tales-event-promo/images/og-spectral-party-metal.png />
+  <meta property="og:image:secure_url" content="https://malditogenio.github.io/spectral-tales-event-promo/images/og-spectral-party-metal.png />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-
-
-
-
 </head>
 <body>
 <main id="hero">  
@@ -44,7 +40,6 @@
               <img  id="evento" src="images/cartel-cd.png" alt="">
               <img  id="evento-1" src="images/cartel-cd-2.png" alt="">
           </div>
-          
       </div>
   </div>
 </main>
@@ -73,8 +68,24 @@
               <li>(1) CD compilado bandas del festival</li>
               <li style="color:#060908;"> <span style="display: none;">_</span></li>
             </ul>
-            <a href="https://mpago.li/2cEK59E" target="_blank" class="w-100 btn btn-lg btn-outline-primary">Comprar</a>
-            </a>
+            <button type="button"class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal-uno">Abrir modal 1</button>
+            <div class="modal fade" id="modal-uno" tabindex="-1" aria-labelledby="modal-uno-titulo" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modal-uno-titulo">Título del modal 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Contenido del modal 1 aquí...</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Guardar cambios</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -96,12 +107,32 @@
               <li>(1) CD  Spectral Tales (envio incluido)</li>
               <li>(1) CD compilado bandas del festival</li>
             </ul>
-            <a href="https://mpago.li/2M1sSZ8" target="_blank" type="button" class="w-100 btn btn-lg btn-primary">Comprar</a>
+
+            <button type="button" class="w-100 btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#modal-dos">Abrir modal 2</button>
+
+            <div class="modal fade" id="modal-dos" tabindex="-1" aria-labelledby="modal-dos-titulo" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modal-dos-titulo">Título del modal 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Contenido del modal 2 aquí...</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger">Eliminar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>
     </div>
-       
           <aside class="row text-center">
               <ul class="metodos-pago d-flex justify-content-center">
                   <li>Metodos de pago</li>
@@ -172,6 +203,24 @@
 </section>
 
 
+<script>
+
+$(document).ready(function () {
+  // Cuando se hace clic en el botón para abrir el primer modal
+  $('#btn-modal-uno').on('click', function () {
+    // Abre el primer modal
+    $('#modal-uno').modal('show');
+  });
+
+  // Cuando se hace clic en el botón para abrir el segundo modal
+  $('#btn-modal-dos').on('click', function () {
+    // Abre el segundo modal
+    $('#modal-dos').modal('show');
+  });
+});
+
+
+</script>
 
 </body>
 </html>
