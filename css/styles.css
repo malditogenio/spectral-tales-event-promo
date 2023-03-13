@@ -103,9 +103,9 @@ details summary {
 }
 /*
 .btn-primary{
-    background: #FFFF8A;
+    background: #E0FBA9;
     border: 0.7px solid rgba(9,9,9,0.33);
-    box-shadow: 0 1px 8px 0 #FFFF8A;
+    box-shadow: 0 1px 8px 0 #E0FBA9;
     border-radius: 2.8px;
     font-family: Arial;
     font-size: 18px;
@@ -130,7 +130,7 @@ details summary {
 }
 
 .small span{
-    color: #FFFF8A;
+    color: #E0FBA9;
 }
 
 .btn-outline-primary{
@@ -142,12 +142,12 @@ details summary {
 }
 
 .border-primary{
-    border: solid 1px #FFFF8A !important;
+    border: solid 1px #E0FBA9 !important;
 }
 .btn-primary, .bg-primary{
-    background: #FFFF8A !important;
+    background: #E0FBA9 !important;
     color: #0b0b0b !important;
-    border: solid 1px #FFFF8A !important;
+    border: solid 1px #E0FBA9 !important;
     font-weight: bold;
 }
 
@@ -192,12 +192,12 @@ details summary {
 .card h5{
     position: absolute;
     top: 0em;
-    background-color: #FFFF8A;
+    background-color: #E0FBA9;
     left: 0;
     width: 100%;
     text-transform: uppercase;
     border-radius: 2px 2px 0 0;
-    border: 1px solid #FFFF8A;
+    border: 1px solid #E0FBA9;
     color: #1A1D22;
     font-weight: bold;
     font-size: 14px;
@@ -218,18 +218,18 @@ details summary {
 }
 .card-special{
     color: #fff;
-    border: 1px solid #FFFF8A;
+    border: 1px solid #E0FBA9;
     box-shadow: 0 3px 7px 0 rgba(255,255,138,0.60);
 }
 
 .card-special a{
-    background: #FFFF8A;
-    border: 1px solid #FFFF8A;
+    background: #E0FBA9;
+    border: 1px solid #E0FBA9;
 }
 
 #hero .strong{
     text-transform: uppercase;
-    color: #FFFF8A  !important;
+    color: #E0FBA9  !important;
     padding-top: 4em;
     margin-bottom: -.2em;
 }
