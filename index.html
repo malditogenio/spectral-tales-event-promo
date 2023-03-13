@@ -65,21 +65,55 @@
               <li>(1) CD compilado bandas del festival</li>
               <li style="color:#060908;"> <span style="display: none;">_</span></li>
             </ul>
-            <button type="button"class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal-uno">Abrir modal 1</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal-uno">Abrir modal 1</button>
             <div class="modal fade" id="modal-uno" tabindex="-1" aria-labelledby="modal-uno-titulo" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modal-uno-titulo">Título del modal 1</h5>
+                  <div class="modal-header text-center">
+                   Introduce tus datos de contacto
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <p>Contenido del modal 1 aquí...</p>
+                    <form method="POST" action="" id="form-modal1" class="form-modal1 needs-validation" novalidate>
+                      <input type="hidden" name="field[7]" value="" autocomplete="off">
+                      <input type="hidden" name="field[8]" value="" autocomplete="off">
+                      <input type="hidden" name="field[9]" value="" autocomplete="off">
+                      <div class="form-content">
+                        <div class="form-group">
+                          <label for="fullname" class="form-label">Nombre completo</label>
+                          <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Ej: Andrés Ospina" required>
+                          <div class="invalid-feedback">
+                            Por favor, ingrese su nombre completo.
+                          </div>
+                        </div>
+                        <div class="form-content">
+                          <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input class="form-control" type="email" id="email" name="email" placeholder="Ej: micorreo@gmail.com" required>
+                            <div class="invalid-feedback">
+                              Por favor, ingrese una dirección de correo electrónico válida.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-content">
+                          <div class="form-group">
+                            <label for="phone" class="form-label">Teléfono*</label>
+                            <input class="form-control" type="text" id="phone" name="phone" placeholder="Ej: +57 3597099875" required>
+                            <div class="invalid-feedback">
+                              Por favor, ingrese su número de teléfono.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-content">
+                          <div class="_button-wrapper">
+                            <button id="_form_51_submit"class="w-100 btn btn-lg btn-primary mt-2"  type="submit">Comprar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary">Guardar cambios</button>
-                  </div>
+                  
                 </div>
               </div>
             </div>

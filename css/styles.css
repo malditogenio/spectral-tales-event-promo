@@ -253,6 +253,22 @@ details summary {
 
   }
   
+  .modal-content{
+    background-color: #0f0f0f;
+    border: 1px solid #C8C9CC;
+  }
+.btn-close{
+    color: #888;
+}
+
+
+.form-group{
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+
+
   .modal-contenido {
     background-color: #fefefe;
     margin: 15% auto;
