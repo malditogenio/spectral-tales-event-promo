@@ -12,7 +12,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Made In Iron Metal Fest XII • Spectral Tales" />
   <meta property="og:description" content="Prepárate para el festival de metal más épico del año! Made In Iron Metal Fest XII te espera con un cartel de 16 bandas de metal legendarias y emergentes, camping, piscina y mucho más en Chinauta, Colombia. Compra tus entradas ahora" />
-  <meta property="og:url" content="https://spectraltales.co" />
+  <meta property="og:url" content="https://spectraltales.co/" />
   <meta property="og:image" content="https://malditogenio.github.io/spectral-tales-event-promo/images/og-spectral-party-metal.png" />
 </head>
 <body>
@@ -30,7 +30,7 @@
                   <h1>Metal Party Fest 2023</h1>
                   <p class="subtitle">Dos días. 16 bandas legendarias. Camping, piscina y puro metal.</p>
                   <a href="#info" class="btn  btn-lg btn-primary">Ver más información</a>
-                  <p class="small">Últimas <span>13</span> entradas disponibles</p>
+                  <p class="small">Últimos <span>13</span> tickets disponibles</p>
               </div>
           </div>
           <div class="row">
@@ -47,7 +47,8 @@
        <div class="container">
     
         <h2 class="text-center">Info: Dos días epicos</h2>
-        <p class="col-md-12 text-center pb-4"><strong> <span>Este 20 y 21 de mayo</strong></span> prepárate para la oscuridad en el <span>Made In Iron Metal Fest XII</span>. Dos días de Camping, piscina y un cartel con 16 bandas legendarias de Colombia este es un festival imprescindible para cualquier guerrero del metal.</p>
+        <p class="col-md-12 text-center pb-4"><strong> <span>Este 20 y 21 de mayo,</strong></span> prepárate para la oscuridad en el <span>
+          Made In Iron Metal Fest XII</span>. Dos días de camping, piscina y un cartel con 16 bandas legendarias de Colombia. Este es un festival imprescindible para cualquier guerrero del metal.
         <div class="row row-cols-1 row-cols-md-2 text-center">
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
@@ -182,30 +183,23 @@
                             </div>
                           </form>
                         </div>
-                        
-                  
-    
-    
-    
-    
-                </div>
-    
-    
-              </div>
+                      </div>    
+                    </div>
+                 </div>
             </div>
           </div>
-        </div>
-              <aside class="row text-center">
-                  <ul class="metodos-pago d-flex justify-content-center">
-                      <li>Metodos de pago</li>
-                      <li><img src="images/master.png" alt=""></li>
-                      <li><img src="images/visa.png" alt=""></li>
-                      <li><img src="images/paypal.png" alt=""></li>
-                      <li><img src="images/pse.png" alt=""></li>
-                  </ul>
-              </aside>
+          
           </div>
       </div>
+      <aside class="row text-center">
+        <ul class="metodos-pago d-flex justify-content-center">
+            <li>Metodos de pago</li>
+            <li><img src="images/master.png" alt=""></li>
+            <li><img src="images/visa.png" alt=""></li>
+            <li><img src="images/paypal.png" alt=""></li>
+            <li><img src="images/pse.png" alt=""></li>
+        </ul>
+    </aside>
     </section>
     
     <section id="preguntas">
@@ -263,17 +257,29 @@
     </div>
     </footer>
     </section>
-    
-    
-    <script>
-    
-    $(document).ready(function () {
+  
+    <script>  
+        $(document).ready(function () {
+          // Cuando se hace clic en el botón para abrir el primer modal
+          $('#btn-modal-uno').on('click', function () {
+            // Abre el primer modal
+            $('#modal-uno').modal('show');
+          });
+        
+          // Cuando se hace clic en el botón para abrir el segundo modal
+          $('#btn-modal-dos').on('click', function () {
+            // Abre el segundo modal
+            $('#modal-dos').modal('show');
+          });
+        });
+
+        $(document).ready(function () {
       // Cuando se hace clic en el botón para abrir el primer modal
       $('#btn-modal-uno').on('click', function () {
         // Abre el primer modal
         $('#modal-uno').modal('show');
       });
-    
+
       // Cuando se hace clic en el botón para abrir el segundo modal
       $('#btn-modal-dos').on('click', function () {
         // Abre el segundo modal
@@ -281,22 +287,6 @@
       });
     });
 
-    $(document).ready(function () {
-  // Cuando se hace clic en el botón para abrir el primer modal
-  $('#btn-modal-uno').on('click', function () {
-    // Abre el primer modal
-    $('#modal-uno').modal('show');
-  });
-
-  // Cuando se hace clic en el botón para abrir el segundo modal
-  $('#btn-modal-dos').on('click', function () {
-    // Abre el segundo modal
-    $('#modal-dos').modal('show');
-  });
-});
-
-
     </script>
-
 </body>
 </html>
