@@ -8,6 +8,10 @@ body{
     font-size: 16px;
 }
 
+form{
+    margin-block-end: 0.2em;
+}
+
 h1,h2, .card-title, .fw-normal{
     font-family: 'Metal Mania', sans-serif;
 }
@@ -23,9 +27,13 @@ h2{
 
 h6{
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
     color: #E0FBA9;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
 }
 aside ul{
     margin-top: 2em !important;
