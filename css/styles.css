@@ -21,6 +21,12 @@ h2{
     font-size: 3em;
 }
 
+h6{
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+    color: #E0FBA9;
+}
 aside ul{
     margin-top: 2em !important;
 }
@@ -263,7 +269,10 @@ details summary {
   .modal-content{
     background-color: #0f0f0f;
     border: 1px solid #C8C9CC;
-    padding: 1em;
+    padding: .5em;
+    margin: 0 1em;
+    box-shadow: -5px -5px 15px 5px rgba(255, 255, 144, 0.1), 5px 5px 15px 7px rgba(224, 251, 169, 0.1);
+
   }
 .btn-close{
     color: #888;
