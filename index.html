@@ -51,7 +51,7 @@
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Estandar</h4>
+            <h4 class="my-0 fw-normal">Ticket Estandar</h4>
           </div>
           <div class="card-body">
             <h3 class="card-title pricing-card-title">$165.000<small class="text-muted fw-light">/ticket</small></h3>
@@ -80,7 +80,7 @@
                       <input type="hidden" name="field[9]" value="" autocomplete="off">
                       <div class="form-content">
                         <div class="form-group">
-                          <label for="fullname" class="form-label">Nombre completo</label>
+                          <label for="fullname" class="form-label">Nombre</label>
                           <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Ej: Andrés Ospina" required>
                           <div class="invalid-feedback">
                             Por favor, ingrese su nombre completo.
@@ -97,7 +97,7 @@
                         </div>
                         <div class="form-content">
                           <div class="form-group">
-                            <label for="phone" class="form-label">Teléfono*</label>
+                            <label for="phone" class="form-label">Teléfono</label>
                             <input class="form-control" type="text" id="phone" name="phone" placeholder="Ej: +57 3597099875" required>
                             <div class="invalid-feedback">
                               Por favor, ingrese su número de teléfono.
@@ -106,12 +106,11 @@
                         </div>
                         <div class="form-content">
                           <div class="_button-wrapper">
-                            <button id="_form_51_submit"class="w-100 btn btn-lg btn-primary mt-2"  type="submit">Comprar</button>
+                            <button class="w-100 btn btn-lg btn-primary mt-2"  type="submit">Comprar estandar</button>
                           </div>
                         </div>
                       </div>
                     </form>
-                    
                   </div>
                   
                 </div>
@@ -124,7 +123,7 @@
       <div class="col">
         <div class="card mb-4 rounded-2 shadow-sm border-primary">
           <div class="card-header py-3 text-white bg-primary border-primary">
-            <h4 class="my-0 fw-normal">Demoniaca</h4>
+            <h4 class="my-0 fw-normal">Tickt Demoniaco</h4>
           </div>
           <div class="card-body">
             <h3 class="card-title pricing-card-title">$175.000<small class="text-muted fw-light">/ticket</small></h3>
@@ -142,21 +141,57 @@
             <button type="button" class="w-100 btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#modal-dos">Abrir modal 2</button>
 
             <div class="modal fade" id="modal-dos" tabindex="-1" aria-labelledby="modal-dos-titulo" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modal-dos-titulo">Título del modal 2</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>Contenido del modal 2 aquí...</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-danger">Eliminar</button>
-                  </div>
-                </div>
-              </div>
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header text-center">
+                     Introduce tus datos de contacto
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form method="POST" action="" id="form-modal1" class="form-modal1 needs-validation" novalidate>
+                        <input type="hidden" name="field[7]" value="" autocomplete="off">
+                        <input type="hidden" name="field[8]" value="" autocomplete="off">
+                        <input type="hidden" name="field[9]" value="" autocomplete="off">
+                        <div class="form-content">
+                          <div class="form-group">
+                            <label for="fullname" class="form-label">Nombre</label>
+                            <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Ej: Andrés Ospina" required>
+                            <div class="invalid-feedback">
+                              Por favor, ingrese su nombre completo.
+                            </div>
+                          </div>
+                          <div class="form-content">
+                            <div class="form-group">
+                              <label for="email" class="form-label">Email</label>
+                              <input class="form-control" type="email" id="email" name="email" placeholder="Ej: micorreo@gmail.com" required>
+                              <div class="invalid-feedback">
+                                Por favor, ingrese una dirección de correo electrónico válida.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-content">
+                            <div class="form-group">
+                              <label for="phone" class="form-label">Teléfono</label>
+                              <input class="form-control" type="text" id="phone" name="phone" placeholder="Ej: +57 3597099875" required>
+                              <div class="invalid-feedback">
+                                Por favor, ingrese su número de teléfono.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-content">
+                            <div class="_button-wrapper">
+                              <button class="w-100 btn btn-lg btn-primary mt-2"  type="submit">Comprar ticket demoniaco</button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    
+              
+
+
+
+
             </div>
 
 

@@ -139,6 +139,11 @@ details summary {
 .btn-outline-primary:hover{
     background: #1A1D22;
 }
+.btn-outline-primary:active{
+    background: #1A1D22 !important;
+}
+
+
 
 .border-primary{
     border: solid 1px #E0FBA9 !important;
@@ -235,7 +240,7 @@ details summary {
 
 
 .modal {
-    display: none; /* oculta el modal por defecto */
+    display: none; 
     position: fixed;
     z-index: 1;
     left: 0;
@@ -256,6 +261,7 @@ details summary {
   .modal-content{
     background-color: #0f0f0f;
     border: 1px solid #C8C9CC;
+    padding: 1em;
   }
 .btn-close{
     color: #888;
@@ -264,9 +270,17 @@ details summary {
 
 .form-group{
     text-align: left;
-    padding-bottom: 1em;
+    padding-bottom: 1.2em;
 }
 
+label{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+input{
+    padding: 1em 2em;
+}
 
 
   .modal-contenido {
@@ -340,6 +354,8 @@ details summary {
     }
     #info p{
         padding: 4px;
+        font-size: 1em;
+        line-height: 1.2em;
         
     }
     .pricing-card-title{
@@ -358,6 +374,14 @@ details summary {
     }
     #preguntas{
         padding-bottom: 0em;
+    }
+    details summary{
+        font-size: .9em;
+    }
+    .card ul li {
+        font-size: .9em;
+        line-height: 1.2em;
+        padding-bottom: 0.2em;
     }
   }
   
