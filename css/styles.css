@@ -269,8 +269,6 @@ details summary {
   .modal-content{
     background-color: #0f0f0f;
     border: 1px solid #C8C9CC;
-    padding: .5em;
-    margin: 0 1em;
     box-shadow: -5px -5px 15px 5px rgba(255, 255, 144, 0.1), 5px 5px 15px 7px rgba(224, 251, 169, 0.1);
 
   }
