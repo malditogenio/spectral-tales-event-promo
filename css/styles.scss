@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+body {
+  color: #fff;
+  background: #000;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+
+  form {
+    margin-block-end: 0.2em;
+  }
+}
+
+h1,
+h2,
+.card-title,
+.fw-normal {
+  font-family: 'Metal Mania', sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 1.1em;
+  text-align: center;
+
+
+  color: #E0FBA9;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+aside {
+  ul {
+    margin-top: 2em !important;
+
+    li {
+      list-style: none;
+      font-weight: bold;
+      font-size: 18px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      padding-right: 1em;
+    }
+  }
+}
+
+details {
+  border-bottom: 1px solid #C8C9CC;
+  color: #C8C9CC;
+  margin: 1.2em 0;
+  font-size: 1.1em;
+  line-height: 1.4em;
+
+  summary {
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.1em;
+    padding-bottom: 1em;
+  }
+}
+
+label {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+
+input {
+  padding: 1em 2em;
+}
+
+#hero {
+  background-image: url(../images/bg-spectral.png);
+  background-size: cover;
+  background-position: center;
+
+  nav {
+    text-align: left;
+    padding: 2em 0 0 2em;
+
+    img {
+      max-width: 140px;
+    }
+  }
+
+  .strong {
+    text-transform: uppercase;
+
+
+    color: #E0FBA9 !important;
+    padding-top: 4em;
+    margin-bottom: -0.2em;
+  }
+}
+
+#preguntas {
+  background: #0b0b0b;
+  background-image: url(../images/bg-vr.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 4em 0;
+  }
+  #evento {
+  max-width: 666px;
+
+  #evento-1 {
+    display: none !important;
+  }
+}
+
+#info {
+  background: linear-gradient(#0b0b0b, #000000);
+  padding: 4em 0;
+
+  p {
+    font-size: 1.2em;
+    color: #C8C9CC;
+    padding: 1em 6em 0;
+
+    span {
+      color: #fff;
+    }
+  }
+}
+
+.btn-close {
+  color: #888;
+}
+
+.btn-outline-primary {
+  border: solid 1px #C8C9CC !important;
+  color: #C8C9CC;
+
+  &:hover {
+    background: #1A1D22;
+  }
+
+  &:active {
+    background: #1A1D22 !important;
+  }
+}
+
+.btn-primary,
+.bg-primary {
+  background: #E0FBA9 !important;
+  border: solid 1px #E0FBA9 !important;
+  color: #0b0b0b !important;
+  font-weight: bold;
+}
+
+.card {
+  background-color: #050706;
+  border: 1px solid #C8C9CC;
+  border-radius: 4px;
+  color: #C8C9CC;
+  min-height: 380px;
+
+  h5 {
+    position: absolute;
+    top: 0em;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1A1D22;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .4em;
+    background-color: #E0FBA9;
+    border: 1px solid #E0FBA9;
+    border-radius: 2px 2px 0 0;
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+
+    li {
+      font-size: 1.1em;
+      margin-left: 1em;
+    }
+  }
+}
+.card-special{
+  color: #fff !important;
+  border: 1px solid #E0FBA9 !important;
+  box-shadow: 0 3px 7px 0 rgba(255, 255, 138, 0.60);
+  a {
+      background: #E0FBA9;
+      border: 1px solid #E0FBA9;
+  }
+  &-title {
+    span {
+      text-align: left;
+    }
+  }
+}
+
+.custom-radio-button {
+  color: #E0FBA9;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: #E0FBA9 1px solid;
+  transition: background-color 0.3s, color 0.3s;
+  input[type="radio"] {
+    display: none;
+  }
+  input[type="radio"]:checked + label {
+    background-color: #E0FBA9;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+}
+
+.fw-normal {
+  font-size: 2.2em;
+}
+
+.faq-list {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 10px;
+  padding: 2em;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.form-group {
+  text-align: left;
+  padding-bottom: 1.2em;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    &-backdrop {
+      z-index: 0;
+      background-color: rgba(255, 255, 255, 0.01);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    }
+
+    &-content {
+      background-color: #0f0f0f;
+      border: 1px solid #C8C9CC;
+      box-shadow: -5px -5px 15px 5px rgba(255, 255, 144, 0.1),
+                  5px 5px 15px 7px rgba(224, 251, 169, 0.1);
+    }
+  }
+
+  .subtitle {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 32px;
+  }
+
+  .small {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0;
+    padding-top: 1em;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #C8C9CC;
+
+    span {
+
+
+        color: #E0FBA9;
+    }
+  }
+
+  @media (max-width: 700px) {
+    details {
+      summary {
+        font-size: 0.9em;
+      }
+    }
+
+    h1 {
+      font-size: 2.4em;
+      padding-top: 0;
+    }
+
+    h2 {
+      font-size: 2em;
+    }
+
+    p {
+      padding: 4px;
+      font-size: 1em;
+      line-height: 1.2em;
+    }
+
+    li {
+      font-size: 0.9em;
+      line-height: 1.2em;
+      padding-bottom: 0.2em;
+    }
+
+    #hero {
+      nav {
+        text-align: center;
+        padding: 2em 0;
+      }
+
+      .strong {
+        padding-top: 1em;
+        margin-bottom: -0.1em;
+      }
+
+      nav img {
+        max-width: 50%;
+      }
+    }
+
+    #evento {
+      width: 100%; ;
+    }
+
+    #evento-1 {
+      display: flex;
+      max-width: 100%;
+    }
+
+    #info {
+      padding: 4em 0 0;
+      p{
+        padding: 1em 0em 0;
+      }
+    }
+
+    #preguntas {
+      padding-bottom: 0;
+    }
+
+    .card {
+      ul li {
+        font-size: 0.9em;
+        line-height: 1.2em;
+        padding-bottom: 0.2em;
+      }
+    }
+
+    .metodos-pago {
+      ul {
+        vertical-align: middle;
+      }
+
+      li {
+        font-size: 0.7em;
+        vertical-align: middle;
+
+        img {
+          max-width: 40px;
+        }
+      }
+    }
+
+    .small {
+      font-size: 0.8em;
+    }
+
+    .subtitle {
+      line-height: 1.4em;
+      padding: 0 1em;
+      font-size: 0.8em;
+    }
+
+    .pricing-card-title {
+      font-size: 2em;
+    }
+  }

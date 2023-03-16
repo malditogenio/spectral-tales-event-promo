@@ -5,7 +5,13 @@
   <title>Made In Iron Metal Fest XII • Spectral Tales</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+  
+
+
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
   <meta name="theme-color" content="#000"/>
   <meta property="og:type" content="website" />
@@ -13,9 +19,9 @@
   <meta property="og:description" content="Prepárate para el festival de metal más épico del año! Made In Iron Metal Fest XII te espera con un cartel de 16 bandas de metal legendarias y emergentes, camping, piscina y mucho más en Chinauta, Colombia. Compra tus entradas ahora" />
   <meta property="og:url" content="https://spectraltales.co/" />
   <meta property="og:image" content="https://malditogenio.github.io/spectral-tales-event-promo/images/og-spectral-party-metal.png" />
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -24,7 +30,7 @@
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5QX8QNT"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5QX8QNT"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   
@@ -46,7 +52,7 @@
           </div>
           <div class="row">
               <div class="col-sm-12  d-flex justify-content-center align-items-center">
-                <img  id="evento-1" src="images/cartel-cd-2.png" alt="">
+                
                 <img  id="evento" src="images/cartel-cd.png" alt="">
               </div>
           </div>
@@ -55,8 +61,7 @@
     
     
     <section id="info">
-       <div class="container">
-    
+       <div class="container"> 
         <h2 class="text-center">Info: Dos días epicos</h2>
         <p class="col-md-12 text-center pb-4"><strong> <span>Este 20 y 21 de mayo,</strong></span> prepárate para la oscuridad en el <span>
           Made In Iron Metal Fest XII</span>. Dos días de camping, piscina y un cartel con 16 bandas legendarias de Colombia. Este es un festival imprescindible para cualquier guerrero del metal.
@@ -78,7 +83,7 @@
                   <li>(1) CD compilado bandas del festival</li>
                   <li style="color:#060908;"> <span style="display: none;">_</span></li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal-uno">Quiero el ticket estándar</button>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary" id="btn-modal-uno" data-bs-toggle="modal" data-bs-target="#modal-uno">Quiero el ticket estándar</button>
                 <div class="modal fade" id="modal-uno" tabindex="-1" aria-labelledby="modal-uno-titulo" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                     <div class="modal-content">
@@ -87,7 +92,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <form method="get" action="https://mpago.li/2gX1GG9" id="form-modal1" class="form-modal1 needs-validation" data-form-autofill validate>
+                        <form method="get" action="" id="form-modal1" class="form-modal1 needs-validation" data-form-autofill>
                           <div class="form-content">
                             <div class="form-group">
                               <label for="fullname" class="form-label">Nombre</label>
@@ -114,16 +119,36 @@
                                 </div>
                               </div>
                             </div>
+                            <div class="form-group">
+                              <label class="form-label">Selecciona la cantidad de tickets</label>
+                              <div>
+                                <div class="custom-radio-button">
+                                  <input class="form-check-input" type="radio" name="quantity" id="quantity1" value="1" checked>
+                                  <label class="form-check-label" for="quantity1">1</label>
+                                </div>
+                                <div class="custom-radio-button">
+                                  <input class="form-check-input" type="radio" name="quantity" id="quantity2" value="2">
+                                  <label class="form-check-label" for="quantity2">2</label>
+                                </div>
+                                <div class="custom-radio-button">
+                                  <input class="form-check-input" type="radio" name="quantity" id="quantity3" value="3">
+                                  <label class="form-check-label" for="quantity3">3</label>
+                                </div>
+                                <div class="custom-radio-button">
+                                  <input class="form-check-input" type="radio" name="quantity" id="quantity4" value="4">
+                                  <label class="form-check-label" for="quantity4">4</label>
+                                </div>
+                              </div>
+                            </div>
+
                             <div class="form-content">
                               <div class="_button-wrapper">
                                 <button class="w-100 btn btn-lg btn-primary mt-2"  type="submit">Comprar ticket estándar</button>
                               </div>
                             </div>
                           </div>
-                        </form>
-                        
-                      </div>
-                      
+                        </form>  
+                      </div>          
                     </div>
                   </div>
                 </div>
@@ -132,7 +157,7 @@
           </div>
     
           <div class="col">
-            <div class="card mb-4 rounded-2 shadow-sm border-primary">
+            <div class="card card-special mb-4 rounded-2 shadow-sm border-primary">
               <div class="card-header py-3 text-white bg-primary border-primary">
                 <h4 class="my-0 fw-normal">Ticket Demoníaco</h4>
               </div>
@@ -159,7 +184,7 @@
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          <form method="get" action="https://mpago.li/2qu9PNx" id="form-modal2" class="form-modal2 needs-validation" data-form-autofill  validate>
+                          <form method="get" action="" id="form-modal2" class="form-modal2 needs-validation" data-form-autofill  validate>
                             <div class="form-content">
                               <div class="form-group">
                                 <label for="fullname" class="form-label">Nombre</label>
@@ -186,6 +211,28 @@
                                   </div>
                                 </div>
                               </div>
+                              <div class="form-group">
+                                <label class="form-label">Selecciona la cantidad de tickets</label>
+                                <div>
+                                  <div class="custom-radio-button">
+                                    <input class="form-check-input" type="radio" name="quantity" id="quantity5" value="1" checked>
+                                    <label class="form-check-label" for="quantity5">1</label>
+                                  </div>
+                                  <div class="custom-radio-button">
+                                    <input class="form-check-input" type="radio" name="quantity" id="quantity6" value="2">
+                                    <label class="form-check-label" for="quantit6">2</label>
+                                  </div>
+                                  <div class="custom-radio-button">
+                                    <input class="form-check-input" type="radio" name="quantity" id="quantity7" value="3">
+                                    <label class="form-check-label" for="quantity7">3</label>
+                                  </div>
+                                  <div class="custom-radio-button">
+                                    <input class="form-check-input" type="radio" name="quantity" id="quantity8" value="4">
+                                    <label class="form-check-label" for="quantity8">4</label>
+                                  </div>
+                                </div>
+                              </div>
+
                               <div class="form-content">
                                 <div class="_button-wrapper">
                                   <button class="w-100 btn btn-lg btn-primary mt-2"  type="submit">Comprar ticket demoníaco</button>
@@ -199,7 +246,6 @@
                  </div>
             </div>
           </div>
-          
           </div>
       </div>
       <aside class="row text-center">
@@ -268,44 +314,6 @@
     </div>
     </footer>
     </section>
-
-    <script>  
-        $(document).ready(function () {
-          // Cuando se hace clic en el botón para abrir el primer modal
-          $('#btn-modal-uno').on('click', function () {
-            // Abre el primer modal
-            $('#modal-uno').modal('show');
-          });
-        
-          // Cuando se hace clic en el botón para abrir el segundo modal
-          $('#btn-modal-dos').on('click', function () {
-            // Abre el segundo modal
-            $('#modal-dos').modal('show');
-          });
-        });
-
-        $(document).ready(function () {
-      // Cuando se hace clic en el botón para abrir el primer modal
-      $('#btn-modal-uno').on('click', function () {
-        // Abre el primer modal
-        $('#modal-uno').modal('show');
-      });
-
-      // Cuando se hace clic en el botón para abrir el segundo modal
-      $('#btn-modal-dos').on('click', function () {
-        // Abre el segundo modal
-        $('#modal-dos').modal('show');
-      });
-    });
-
-    $(document).ready(function() {
-    $('.modal-backdrop').blurjs({
-      source: 'body',
-      radius: 7,
-      overlay: 'rgba(255,255,255,0.4)'
-    });
-  });
-
-    </script>
+    <script src="js/recursos.js"></script>
 </body>
 </html>
